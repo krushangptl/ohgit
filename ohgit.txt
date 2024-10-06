@@ -65,3 +65,40 @@ Repo/*
 
     What is Branch : Parallel version of your project.
 */
+
+Write-Add-Commit/*
+    
+    # write and changes
+    $mkdir ohgit # create directory
+    $cd ohgit 
+    $git init   # Initialize git repository 
+    $mkdir test # create test directory
+    $cd test 
+    $vim classic.go # create an go project file and write some code
+        
+    # git status 
+    $git status # tells you what you done and whats remaining
+
+    In git there is 2 type of work you do before commit anything. 
+    Stage and Unstage
+    For commit anything you need to require that work in Stage state.
+    By default what ever you do is in Unstage state. 
+    For making your work to Stage state we use "add" 
+    
+    $git add classic.go  # one by one || $git add . # add everything 
+    $git status # to check our work is now on Stage state 
+
+    Commit: Your changes save into project with specific ID, time and date with who did changes.
+
+    $git commit -m "Adding Classic.go" 
+
+    Where '-m' is message flag used to add commit message.
+
+    History 
+    $git log # provide you all commits with unique ID and authors info 
+     
+    It is useful to go previous version of your project with unique ID of commit  
+    for example to go previous version of your project
+    
+    $git checkout <commitID> 
+*/
