@@ -1,0 +1,21 @@
+GitHub Error Problem for Authentication!
+
+When I first time push my local repository to remote repository on Github, 
+I encounter Authentication Problem...
+
+In Which I asked for my username, password and I get error message like that Authentication 
+is already closed in 2021. I need you use other Authentication Method.
+
+We have 2 Authentication Methods 
+
+1. By Token 
+Go to your GitHub Account -> Setting -> Token 
+Generate Token and use that Token as password for Authentication or as HTTP link.
+
+2. By SSH Key 
+Generate SSH Key : https://www.atlassian.com/git/tutorials/git-ssh 
+Add it into your GitHub Account.
+
+If you encounter any issue, checkout YouTube, stack overflow or Google.
+
+Thank you!

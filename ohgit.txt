@@ -102,3 +102,37 @@ Write-Add-Commit/*
     
     $git checkout <commitID> 
 */
+
+GitHub/*
+    Git is tool to track development/code-base. 
+    GitHub is Cloud Service to store Repository and Collaborate with other online(OSS).
+
+    There is 2 Type of Repository 
+    Local Repository in your device and Remote Repository on GitHub. 
+
+    Now Create New Repository `ohgit` and copy the http/ssh repository link.
+*/
+
+Push/*
+    Now We are going to push our local repository to remote 
+
+    $git remote add origin <http/ssh link>
+    # remember origin, you can also use other names 
+    $git push -u origin <branch name> 
+    # -u flag is upstream flag, your branch name -> in this case its "master" 
+    
+    Great! Now you push you repository online
+*/
+
+Pull/*
+    If someone make changes and it added to master branch or then you need to pull that 
+    changes, 
+    $git pull # (on that specific branch -> master)
+*/
+
+Event1/*
+    Configuration! You learn basic git! 
+    - create repository
+    - push changes
+    - i think it good for today!
+*/
