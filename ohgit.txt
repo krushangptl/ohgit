@@ -1,0 +1,67 @@
+Main/* 
+    Hello This is Krushang! 
+    Lets learn Git!
+
+    What is Version Control?
+    Ans. Tracking, Managing and making changes to Software is known as Version Control.
+
+    Example: Suppose I am working on a project saved in the directory `proj`.
+    By now, I had made some changes and saved them as : 
+    - `proj-update1`
+    - `proj-update2`
+    - `proj-update3`
+    - `proj-update4`
+    Now, my friend wants to help me to add some great feature on my project.
+    So I send the latest directory `proj-update4`
+    And after adding feature, I receive `proj-update4-feat1` from my friend.
+    I accidentally broke  the new code base, so I need to find where I broke the code.
+    But I am not able to find out where I made a mistake.
+
+    And Here comes the Version Control System. That help me when ever I need to go previous version of project 
+    or working on a new version of project.
+*/
+
+Installation/*
+    As I use Ubuntu Linux,
+        `$sudo apt install git` 
+    For other OS, Please Checkout Official Documentation.
+*/
+
+Version/*
+    After Installation, Checkout Version of git, 
+        `$git --version` 
+*/
+
+Config/*
+    Global Configuration for git.  
+
+    For Global User Name, 
+        `$git config --global user.name "your_name"`
+    
+    For Global User EMail,
+        `$git config --global user.email "your_email@example.com"`
+
+    Basic Configuration is done :)
+*/
+
+Repo/*
+    Repository, 
+
+    AKA Directory (In Linux Environment) and Folder (In Windows Environment)
+
+    For Initialize your directory into git repository, you can use: 
+        `$git init` 
+
+    Here is the deal, the default git branch of your repository is "master" and 
+    you can change it in any other name like: main(standard branch), develop, feat, etc ...
+    
+    To change it globally, so when you Initialize git repository your default branch set as it.
+        `$git config --global init.defaultBranch <name>` 
+    To change it only in current repository 
+        `$git branch -M <name>`
+
+    After you Initialize directory as repository in your file system .git directory is added 
+    which is hidden.
+
+    What is Branch : Parallel version of your project.
+*/
