@@ -136,3 +136,29 @@ Event1/*
     - push changes
     - i think it good for today!
 */
+
+True-Power-of-git/*
+    HEAD reference or indicator that let you help to know in which branch you are.
+    As you are in "master" branch up to now, HEAD is at "master" branch.
+
+    Branching?
+    : Creating Parallel version of your project and Means 2 Branches are in parallel 
+    your "master" branch and branch that you create.
+    So You can make changes in new created branch while the "master"branch remain same.
+    
+    Merging? 
+    : After adding features or making changes in new branch you can merge it to "master" branch.
+    Which now new continue version of you project.
+
+    Branching Let you help to maintain code-base and making changes parallel without effecting 
+    "master" aka your main branch. 
+
+    Example of Branches : master, main, develop, feat, etc.... 
+    
+    ver1               ver2                 ver3
+    ---x------------------x--------------------x--------------
+       |                |                   |
+    ---x-----x-----x-----------------x------------------------
+             |       |
+    ---------x------------------------------------------------
+*/
