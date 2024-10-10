@@ -203,4 +203,18 @@ Remote Branch/*
 
 */
 
-
+Merge/*
+    When you push local branch to remote branch, you create a pull request.
+    
+    Here it's my own pull request so I merge it with two way!
+    1. Simply Go to GitHub and Accept Pull request.
+    2. Follow below steps 
+    - clone repository or update your local repository with the latest changes 
+    $git pull origin master 
+    - switch to base branch of the pull request branch 
+    $git checkout master 
+    - merge head branch into base branch 
+    $git merge advance 
+    - push changes 
+    $git push -u origin master
+*/
