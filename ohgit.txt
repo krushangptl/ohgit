@@ -162,3 +162,45 @@ True-Power-of-git/*
              |       |
     ---------x------------------------------------------------
 */
+
+Branching/*
+    create branch 
+    $git branch <branch-name> # suppose advance = <branch-name>
+    move HEAD to that branch 
+    $git checkout advance
+    return to master branch/main branch 
+    $git checkout master 
+
+    pro-tip: create branch and move right at time
+    $git checkout -b <new-branch>
+
+    Remember the branch HEAD where you created branch.
+*/
+
+commit message/*
+    if applied to the code-base, this commit will do ....
+
+    what will happend when i merge the branch containing this commit?
+*/
+
+Remote Branch/*
+    making branch to remote other from main branch 
+    $ git push --set-upstream origin <branch-name> # in this case it's advance
+    
+    or 
+
+    $git push -u origin advance
+
+    Remote 
+    -------master--------------
+           | 
+           advance-------------
+
+    Local 
+    -------master--------------
+           | 
+           advance-------------
+
+*/
+
+
