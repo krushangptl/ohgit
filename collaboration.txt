@@ -1,0 +1,15 @@
+Here are the step for collaboration.
+
+1. Clone repository 
+2. New Branch form master or other Branch
+3. Make changes 
+4. Push branch to remote repository 
+5. Open a pull request 
+
+Accept pull request if you are Maintainer!
+
+1. Test changes 
+2. Merge changes if acceptable
+3. Pull the Merged changes into your local master branch
+
+Repeat!
