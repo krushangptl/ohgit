@@ -14,4 +14,5 @@ func main() {
 func root() {
 	fmt.Println("This is IMPORTANT CODE!")
 	fmt.Println("Ignore!")
+	fmt.Println("Don't Ignore!")
 }
