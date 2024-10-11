@@ -218,3 +218,22 @@ Merge/*
     - push changes 
     $git push -u origin master
 */
+
+Merge conflict/*
+    Merge conflict is a situation when git is uncertain abut which part Merge! 
+
+    Suppose, you add some code into source code of project and create pull request.
+    After sometimes your friend add some code into source code of project and create pull request.
+    Assume your friend's pull request merged first, and your code is overlap the current code that changed by your 
+    friend. 
+    Maintainer Simply tell you Please resolve the conflict for merging code into source code by your self.
+
+    Step you have to follow!
+    1. Pull latest changes, 
+    2. Open Changed code-base
+    3. See/check the changes that your friend made and you made
+    4. Make sure common code remains same 
+    5. Remove not needed code from your or your friend side 
+    6. Make it simple that have important changes both your and your friends
+    7. Push is again
+*/

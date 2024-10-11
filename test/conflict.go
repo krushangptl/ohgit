@@ -6,6 +6,7 @@ import (
 
 func main() {
 	fmt.Println("Conflict!")
+	fmt.Println("Merge Conflict!")
 
 	// root function call
 	root()
@@ -13,6 +14,9 @@ func main() {
 
 func root() {
 	fmt.Println("This is IMPORTANT CODE!")
-	fmt.Println("Ignore!")
 	fmt.Println("Don't Ignore!")
+
+	// rooted to main
+	fmt.Println("This is IMPORTANT CODE!")
+
 }
