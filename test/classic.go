@@ -11,4 +11,11 @@ func main() {
 
 	// The Bug
 	// Now Fixed!
+	// Here is the New Feature I am working on!
+	// Code of context 1
+	// Code of context 2
+	// Code of context 3
+	// quick bug fix
+	// bug is fixed
+	// Last code of context
 }
