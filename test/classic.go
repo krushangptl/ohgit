@@ -8,4 +8,7 @@ import (
 
 func main() {
 	fmt.Println("Go is Good for Goblins!")
+
+	// The Bug
+	// Now Fixed!
 }
