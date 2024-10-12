@@ -237,3 +237,41 @@ Merge conflict/*
     6. Make it simple that have important changes both your and your friends
     7. Push is again
 */
+
+/*
+    Branch Protection Rules is Most Important!
+*/
+
+Savior/*
+    The Greatest command that save you from being fired!
+
+    UNDO: $git checkout <branch>
+
+    RESET:
+    1. Soft Reset 
+    $git reset --soft <branch/commitID> 
+    => All the work done are still there but in stage state
+
+    2. Mixed Reset 
+    $git reset <branch/commitID>
+    => All the work done are still there but in unstage state
+    => you can keep them or delete them
+
+    3. Hard Reset 
+    $git reset --hard <branch/commitID> 
+    => All the work done are discarded
+
+    REVERT: 
+    $git revert <commitID> 
+    Example there are A--B--C--D--E--F commits 
+    You want to undo the D commit but want to keep E and F 
+    Here is the true power of revert 
+    Mini Merge Conflict (after solving issue)
+    $git revert --continue 
+    => Undo changes in safe way, without rewriting the commit history 
+
+    STASH:
+    Suppose you are working on some feature and suddenly Bug appear in other branch/master 
+    Now you need to stop your work and change the branch to quick fix the Bug
+    Here stash command will save your work that you currently do and give you access to fix Bug
+*/
