@@ -9,6 +9,8 @@ import (
 func main() {
 	fmt.Println("Go is Good for Goblins!")
 
+	// The Bug
+	// Now Fixed!
 	// Here is the New Feature I am working on!
 	// Code of context 1
 	// Code of context 2
