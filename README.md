@@ -8,3 +8,7 @@
 - Checkout `ohgit.txt` in which I describe How I start learning git with practical implementations.
 - Pro tip : You have your own unique way to learn anything, So just figure it out.
 - **Happy learning!**
+
+## Let me do speedrun again
+
+- Version control must be mastered
